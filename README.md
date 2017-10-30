@@ -1,4 +1,4 @@
-# cfenv_one_liner
+# cfenv-one-liner
 
 This is the CLI that makes the result of the cf env command the value of one line of VCAP_SERVICES or VCAP_APPLICATION.
 
