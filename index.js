@@ -1,3 +1,16 @@
+/**
+ * @file Cloud Foundry Environment CLI
+ *
+ * This is the CLI that makes the result of the cf env command the value of one line of VCAP_SERVICES or VCAP_APPLICATION.
+ *  <pre>
+ * USAGE:
+ *   node cfenv_one_line -p PROPERTY_NAME [file] [-h|--help]
+ * OPTIONS
+ *   -p   PROPERTY_NAME: VCAP_SERVICES or VCAP_APPLICATION
+ * </pre>
+ *
+ * @author Ippei SUZUKI
+ */
 'use strict';
 
 // モジュールを読み込む。
