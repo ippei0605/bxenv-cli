@@ -1,0 +1,164 @@
+Getting env variables for app sieg in org wbc_2017_1@jiec.co.jp / space dev as wbc_2017_1@jiec.co.jp...
+OK
+
+System-Provided:
+{
+ "VCAP_SERVICES": {
+  "cloudantNoSQLDB": [
+   {
+    "credentials": {
+     "host": "815bee23-b7cd-40d1-b15b-de047eb66122-bluemix.cloudant.com",
+     "password": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+     "port": 443,
+     "url": "https://815bee23-b7cd-40d1-b15b-de047eb66122-bluemix:0769a9ae1c18ec2b821028b55de30a894a7069d9bdba800eccfa252830fa1e86@815bee23-b7cd-40d1-b15b-de047eb66122-bluemix.cloudant.com",
+     "username": "815bee23-b7cd-40d1-b15b-de047eb66122-bluemix"
+    },
+    "label": "cloudantNoSQLDB",
+    "name": "B20-O930185-OT-NR-cloudantNoSQLDB",
+    "plan": "Lite",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "data_management",
+     "ibm_created",
+     "lite",
+     "ibm_dedicated_public"
+    ],
+    "volume_mounts": []
+   },
+   {
+    "credentials": {
+     "host": "a5dec301-509f-466f-9274-5c6b5d2d6ed6-bluemix.cloudant.com",
+     "password": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+     "port": 443,
+     "url": "https://a5dec301-509f-466f-9274-5c6b5d2d6ed6-bluemix:8f8c92077fac62b7a629efbe58fb0c0048329e789c4b0372247cda1df822ed6c@a5dec301-509f-466f-9274-5c6b5d2d6ed6-bluemix.cloudant.com",
+     "username": "a5dec301-509f-466f-9274-5c6b5d2d6ed6-bluemix"
+    },
+    "label": "cloudantNoSQLDB",
+    "name": "Cloudant-sieg",
+    "plan": "Lite",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "data_management",
+     "ibm_created",
+     "lite",
+     "ibm_dedicated_public"
+    ],
+    "volume_mounts": []
+   }
+  ],
+  "natural_language_classifier": [
+   {
+    "credentials": {
+     "password": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+     "url": "https://gateway.watsonplatform.net/natural-language-classifier/api",
+     "username": "48a63596-6c65-4171-9edd-ce5b539891fe"
+    },
+    "label": "natural_language_classifier",
+    "name": "B20-O930185-OT-NLC",
+    "plan": "standard",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "watson",
+     "ibm_created",
+     "ibm_dedicated_public"
+    ],
+    "volume_mounts": []
+   },
+   {
+    "credentials": {
+     "password": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+     "url": "https://gateway.watsonplatform.net/natural-language-classifier/api",
+     "username": "827fc38d-44bc-454e-b2e7-f6ce204437e8"
+    },
+    "label": "natural_language_classifier",
+    "name": "NLC-sieg",
+    "plan": "standard",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "watson",
+     "ibm_created",
+     "ibm_dedicated_public"
+    ],
+    "volume_mounts": []
+   }
+  ],
+  "speech_to_text": [
+   {
+    "credentials": {
+     "password": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+     "url": "https://stream.watsonplatform.net/speech-to-text/api",
+     "username": "85af5821-0bc2-4f26-b89a-e20cf15068ec"
+    },
+    "label": "speech_to_text",
+    "name": "B20-O930185-OT-STT",
+    "plan": "standard",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "watson",
+     "ibm_created",
+     "ibm_dedicated_public"
+    ],
+    "volume_mounts": []
+   }
+  ],
+  "text_to_speech": [
+   {
+    "credentials": {
+     "password": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+     "url": "https://stream.watsonplatform.net/text-to-speech/api",
+     "username": "91e62497-fdca-409d-9e4b-12f9ec1fcc7a"
+    },
+    "label": "text_to_speech",
+    "name": "B20-O930185-OT-TTS",
+    "plan": "standard",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "watson",
+     "ibm_created",
+     "ibm_dedicated_public"
+    ],
+    "volume_mounts": []
+   }
+  ]
+ }
+}
+
+{
+ "VCAP_APPLICATION": {
+  "application_id": "fd17136e-5a8d-4f85-9873-aa9b7979e340",
+  "application_name": "sieg",
+  "application_uris": [
+   "sieg.mybluemix.net"
+  ],
+  "application_version": "154ea5be-04f7-46b4-b4f4-27644aba3ace",
+  "cf_api": "https://api.ng.bluemix.net",
+  "limits": {
+   "disk": 1024,
+   "fds": 16384,
+   "mem": 256
+  },
+  "name": "sieg",
+  "space_id": "df6a1388-73f8-4ae5-bbec-181c88a54c2d",
+  "space_name": "dev",
+  "uris": [
+   "sieg.mybluemix.net"
+  ],
+  "users": null,
+  "version": "154ea5be-04f7-46b4-b4f4-27644aba3ace"
+ }
+}
+
+No user-defined env variables have been set
+
+Running Environment Variable Groups:
+BLUEMIX_REGION: ibm:yp:us-south
+
+Staging Environment Variable Groups:
+BLUEMIX_REGION: ibm:yp:us-south
+
