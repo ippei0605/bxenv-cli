@@ -5,7 +5,7 @@
   "author": "Ippei SUZUKI",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ippei0605/bxenv-cli.git"
+    "url": "https://github.com/ippei0605/cfenv-one-liner"
   },
   "license": "MIT",
   "main": "./index",
