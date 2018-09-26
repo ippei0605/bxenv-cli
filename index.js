@@ -71,7 +71,7 @@ function setParams () {
 // VCAP 値を1行の文字列にして返す。
 function getOneLine (text) {
     try {
-        const env = text.match(/({[\s\S]*VCAP_SERVICES[\s\S]*)[\s\S]*({[\s\S]*VCAP_APPLICATION[\s\S]*})/);
+        const env = text.match(/({[\s\S]*VCAP_SERVICES[\s\S]*)[\s\S]*({[\s\S]*VCAP_APPLICATION[\s\S]*)((User-Provided|No user-defined env variables have been set)[\s\S]*)/);
         const vcapServices = JSON.parse(env[1]);
         const vcapApplication = JSON.parse(env[2]);
         if (property === 'VCAP_SERVICES') {
