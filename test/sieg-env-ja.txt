@@ -1,0 +1,212 @@
+システム提供:
+{
+ "VCAP_SERVICES": {
+  "cloudantNoSQLDB": [
+   {
+    "credentials": {
+     "apikey": "uUIU_np0Y1LO4pd4w4jD4JV7S4M34EMxEyg5NNFNJ5GF",
+     "host": "1ee23b78-2ff9-452a-ae90-523328d88279-bluemix.cloudant.com",
+     "iam_apikey_description": "Auto generated apikey during resource-bind operation for Instance - crn:v1:bluemix:public:cloudantnosqldb:us-south:a/48984e66e3b9b429a0cfe14d0637f075:043cbdd8-f335-4147-900d-dff4761f8373::",
+     "iam_apikey_name": "auto-generated-apikey-e6314787-d447-499a-8fd6-f129c3df9975",
+     "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Writer",
+     "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/48984e66e3b9b429a0cfe14d0637f075::serviceid:ServiceId-d9e05746-6818-4507-aa59-a491e4248a4c",
+     "password": "3ddaaa42f8a33b7d4677f9350149f48fa758c2ef179840cf7e21fed0e986f931",
+     "port": 443,
+     "url": "https://1ee23b78-2ff9-452a-ae90-523328d88279-bluemix:3ddaaa42f8a33b7d4677f9350149f48fa758c2ef179840cf7e21fed0e986f931@1ee23b78-2ff9-452a-ae90-523328d88279-bluemix.cloudant.com",
+     "username": "1ee23b78-2ff9-452a-ae90-523328d88279-bluemix"
+    },
+    "label": "cloudantNoSQLDB",
+    "name": "cloudant-sieg",
+    "plan": "Standard",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "data_management",
+     "ibm_created",
+     "lite",
+     "ibm_dedicated_public",
+     "ibmcloud-alias"
+    ],
+    "volume_mounts": []
+   }
+  ],
+  "natural_language_classifier": [
+   {
+    "credentials": {
+     "password": "8TatAKkMnUbR",
+     "url": "https://gateway.watsonplatform.net/natural-language-classifier/api",
+     "username": "a42b89b4-55bd-4204-b646-dfc2a5763053"
+    },
+    "label": "natural_language_classifier",
+    "name": "nlc-5-sieg",
+    "plan": "standard",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "ibm_created",
+     "ibm_dedicated_public",
+     "watson"
+    ],
+    "volume_mounts": []
+   },
+   {
+    "credentials": {
+     "password": "rPJ46F8EGMko",
+     "url": "https://gateway.watsonplatform.net/natural-language-classifier/api",
+     "username": "30f9dde4-6fb9-4efc-a356-1f4d196b1dd0"
+    },
+    "label": "natural_language_classifier",
+    "name": "nlc-4-sieg",
+    "plan": "standard",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "ibm_created",
+     "ibm_dedicated_public",
+     "watson"
+    ],
+    "volume_mounts": []
+   },
+   {
+    "credentials": {
+     "password": "S1XIMdsM5nh2",
+     "url": "https://gateway.watsonplatform.net/natural-language-classifier/api",
+     "username": "3a18b428-a2b5-4cf4-892d-9737211ff426"
+    },
+    "label": "natural_language_classifier",
+    "name": "nlc-3-sieg",
+    "plan": "standard",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "ibm_created",
+     "ibm_dedicated_public",
+     "watson"
+    ],
+    "volume_mounts": []
+   },
+   {
+    "credentials": {
+     "password": "LMBhhQbIIHtl",
+     "url": "https://gateway.watsonplatform.net/natural-language-classifier/api",
+     "username": "dfb460dc-56b8-4001-a8e9-6b707f0cd826"
+    },
+    "label": "natural_language_classifier",
+    "name": "nlc-2-sieg",
+    "plan": "standard",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "ibm_created",
+     "ibm_dedicated_public",
+     "watson"
+    ],
+    "volume_mounts": []
+   },
+   {
+    "credentials": {
+     "password": "bFjl6CC8WXTY",
+     "url": "https://gateway.watsonplatform.net/natural-language-classifier/api",
+     "username": "7818036f-7a28-44d2-8546-1c6e45c3640e"
+    },
+    "label": "natural_language_classifier",
+    "name": "nlc-1-sieg",
+    "plan": "standard",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "ibm_created",
+     "ibm_dedicated_public",
+     "watson"
+    ],
+    "volume_mounts": []
+   }
+  ],
+  "speech_to_text": [
+   {
+    "credentials": {
+     "password": "3q77eyRLiDbo",
+     "url": "https://stream.watsonplatform.net/speech-to-text/api",
+     "username": "e048dc57-3d79-471b-a157-0ecb4bd9cc88"
+    },
+    "label": "speech_to_text",
+    "name": "stt-sieg",
+    "plan": "standard",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "ibm_created",
+     "ibm_dedicated_public",
+     "lite",
+     "watson"
+    ],
+    "volume_mounts": []
+   }
+  ],
+  "text_to_speech": [
+   {
+    "credentials": {
+     "password": "GfFMVHs15mbD",
+     "url": "https://stream.watsonplatform.net/text-to-speech/api",
+     "username": "0098a8ee-335c-46a6-8e2c-1c2c23a4252e"
+    },
+    "label": "text_to_speech",
+    "name": "tts-sieg",
+    "plan": "standard",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "ibm_created",
+     "ibm_dedicated_public",
+     "lite",
+     "watson"
+    ],
+    "volume_mounts": []
+   }
+  ],
+  "user-provided": [
+   {
+    "credentials": {},
+    "label": "user-provided",
+    "name": "papertrail-sieg",
+    "syslog_drain_url": "syslog-tls://logs4.papertrailapp.com:23873",
+    "tags": [],
+    "volume_mounts": []
+   }
+  ]
+ }
+}
+{
+ "VCAP_APPLICATION": {
+  "application_id": "6f8894dd-2fad-4105-b5bc-8f1be17d4a8d",
+  "application_name": "sieg",
+  "application_uris": [
+   "mana-demo05-admin.mybluemix.net"
+  ],
+  "application_version": "f26bb9a3-cda7-4084-8471-746b9bb07117",
+  "cf_api": "https://api.ng.bluemix.net",
+  "limits": {
+   "disk": 1024,
+   "fds": 16384,
+   "mem": 2048
+  },
+  "name": "sieg",
+  "space_id": "bd536b43-df2d-42f3-a5bf-af420fce12c7",
+  "space_name": "dev",
+  "uris": [
+   "mana-demo05-admin.mybluemix.net"
+  ],
+  "users": null,
+  "version": "f26bb9a3-cda7-4084-8471-746b9bb07117"
+ }
+}
+ユーザー提供:
+API_ACCESS_KEY: sieg-722e81e89bb924de96d339d6924976db
+FEATURE: ["MultiAngleAnswers", "FBLogExport", "Speech"]
+NODE_ENV: production
+START_OF_WEEK: MON
+TZ: Asia/Tokyo
+実行環境変数グループ:
+BLUEMIX_REGION: ibm:yp:us-south
+ステージング環境変数グループ:
+BLUEMIX_REGION: ibm:yp:us-south

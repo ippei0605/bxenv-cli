@@ -1,6 +1,6 @@
 {
   "name": "cfenv-one-liner",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Cloud Foundry Environment CLI",
   "author": "Ippei SUZUKI",
   "repository": {
